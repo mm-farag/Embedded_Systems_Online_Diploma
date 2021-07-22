@@ -1,0 +1,45 @@
+/*
+ * unit2_Lesson3_Slide22_Complex_Number.c
+ *
+ *  Created on: Feb 1, 2021
+ *      Author: Muhammad Mustafa
+ */
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+#include<stdlib.h>
+
+
+struct SComplex
+{
+	double m_Real_Part;
+	double m_Imaginary_Part;
+};
+
+
+
+struct SComplex read_Imaginary_Number(char complex_Name[]);
+
+
+void main()
+{
+	struct SComplex x, y, z;
+	x = read_Imaginary_Number("x");
+	y = read_Imaginary_Number("y");
+
+}
+
+
+struct SComplex read_Imaginary_Number(char complex_Name[])
+{
+	struct SComplex temp_Imaginary;
+	printf("Enter \"%s\" imaginary number ex(3 , 3.6)\n");
+	fflush(stdin); fflush(stdout);
+	scanf("%lf %lf", &temp_Imaginary.m_Real_Part, &temp_Imaginary.m_Imaginary_Part);
+	return temp_Imaginary;
+
+}
+

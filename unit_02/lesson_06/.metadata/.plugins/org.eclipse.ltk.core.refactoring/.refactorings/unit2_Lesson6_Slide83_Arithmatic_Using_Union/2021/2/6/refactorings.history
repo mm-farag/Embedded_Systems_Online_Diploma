@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;unit2_Lesson6_Slide83_Arithmatic_Using_Union/src/unit2_Lesson3_Slide83_Arithmatic_Using_Union.c&apos; to &apos;unit2_Lesson6_Slide83_Arithmatic_Using_Union.c&apos;" description="Rename resource &apos;unit2_Lesson3_Slide83_Arithmatic_Using_Union.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/unit2_Lesson3_Slide83_Arithmatic_Using_Union.c" name="unit2_Lesson6_Slide83_Arithmatic_Using_Union.c" stamp="1612270061034" updateReferences="true"/>
+</session>

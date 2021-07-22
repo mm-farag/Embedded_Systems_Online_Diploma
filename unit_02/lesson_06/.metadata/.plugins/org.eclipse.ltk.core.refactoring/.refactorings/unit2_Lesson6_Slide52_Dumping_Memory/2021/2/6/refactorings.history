@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;unit2_Lesson6_Slide52_Dumping_Memory/unit2_Lesson3_Slide52_Dumping_Memory.c&apos; to &apos;unit2_Lesson6_Slide52_Dumping_Memory.c&apos;" description="Rename resource &apos;unit2_Lesson3_Slide52_Dumping_Memory.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="unit2_Lesson3_Slide52_Dumping_Memory.c" name="unit2_Lesson6_Slide52_Dumping_Memory.c" stamp="1612270026782" updateReferences="true"/>
+</session>

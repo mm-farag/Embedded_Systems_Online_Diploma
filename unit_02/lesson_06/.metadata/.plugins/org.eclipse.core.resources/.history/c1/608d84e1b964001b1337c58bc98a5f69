@@ -1,0 +1,45 @@
+/*
+ * unit2_Lesson3_Slide52_Dumping_Memory.c
+ *
+ *  Created on: Feb 1, 2021
+ *      Author: Muhammad Mustafa
+ */
+
+
+
+#include<stdio.h>
+struct SData
+{
+	char data1;
+	int data2;
+	char data3;
+	short data4;
+
+};
+
+
+
+
+void main()
+{
+	struct SData data;
+	char *pointer = &data;
+
+
+	data.data1 = 0xff;
+	data.data2 = 0xaa;;
+	data.data3 = 1;
+	data.data4 = 0xBB;
+
+
+	printf("%x\n", data);
+	data++;
+	printf("%P\n", data);
+	data++;
+	printf("%P\n", data);
+	data++;
+	printf("%P\n", data);
+
+}
+
+

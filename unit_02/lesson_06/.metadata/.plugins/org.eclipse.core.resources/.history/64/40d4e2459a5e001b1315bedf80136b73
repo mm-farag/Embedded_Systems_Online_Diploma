@@ -1,0 +1,32 @@
+/*
+ * test.c
+ *
+ *  Created on: Jan 24, 2021
+ *      Author: Muhammad Mustafa
+ */
+
+
+#include<stdio.h>
+
+struct SRegister_Type
+{
+	char bit0;
+	char bit1;
+	char bit2;
+	char bit3;
+	char bit4;
+	char bit5;
+	char bit6;
+	char bit7;
+}Register;
+
+
+
+unsigned char variable = 0b00001010;
+
+
+
+void main()
+{
+	printf("%d\n", variable);
+}

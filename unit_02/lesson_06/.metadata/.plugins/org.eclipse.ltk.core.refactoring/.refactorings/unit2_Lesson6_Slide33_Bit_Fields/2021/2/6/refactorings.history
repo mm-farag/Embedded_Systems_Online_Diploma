@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;unit2_Lesson6_Slide33_Bit_Fields/unit2_Lesson3_Slide33_Bit_Fields.c&apos; to &apos;unit2_Lesson6_Slide33_Bit_Fields.c&apos;" description="Rename resource &apos;unit2_Lesson3_Slide33_Bit_Fields.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="unit2_Lesson3_Slide33_Bit_Fields.c" name="unit2_Lesson6_Slide33_Bit_Fields.c" stamp="1612270013489" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;unit2_Lesson6_Slide80_Personal_Data_Using_Enum/src/unit2_Lesson3_Slide80_Personal_Data_Using_Enum.c&apos; to &apos;unit2_Lesson6_Slide80_Personal_Data_Using_Enum.c&apos;" description="Rename resource &apos;unit2_Lesson3_Slide80_Personal_Data_Using_Enum.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/unit2_Lesson3_Slide80_Personal_Data_Using_Enum.c" name="unit2_Lesson6_Slide80_Personal_Data_Using_Enum.c" stamp="1612270043297" updateReferences="true"/>
+</session>

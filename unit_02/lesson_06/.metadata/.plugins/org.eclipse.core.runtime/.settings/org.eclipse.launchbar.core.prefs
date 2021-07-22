@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Test Project Debug,org.eclipse.launchbar.core.descriptorType.default\:Test Project.exe,org.eclipse.launchbar.core.descriptorType.default\:unit2_Lesson3_Slide3.exe,org.eclipse.launchbar.core.descriptorType.default\:unit2_Lesson3_Slide3_c_Example_With_Structure.c.exe,org.eclipse.launchbar.core.descriptorType.default\:unit2_Lesson3_Slide16_Employee_Bubble_Sort_Nested_Structure.exe,org.eclipse.launchbar.core.descriptorType.default\:unit2_Lesson3_Slide22_Complex_Number.exe,org.eclipse.launchbar.core.descriptorType.default\:unit2_Lesson3_Slide33_Bit_Fields.exe,org.eclipse.launchbar.core.descriptorType.default\:unit2_Lesson3_Slide52_Dumping_Memory.exe,org.eclipse.launchbar.core.descriptorType.default\:unit2_Lesson3_Slide80_Personal_Data_Using_Enum.exe,org.eclipse.launchbar.core.descriptorType.default\:unit2_Lesson3_Slide83_Arithmatic_Using_Union.exe,org.eclipse.launchbar.core.descriptorType.default\:unit2_Lesson3_Slide83_Arithmatic_Using_Union Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Test\ Project\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Test\ Project\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Test\ Project.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:unit2_Lesson3_Slide3_c_Example_With_Structure.c.exe/activeLaunchMode=run

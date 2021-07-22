@@ -1,0 +1,58 @@
+/*
+ ============================================================================
+ Name        : unit2_Lesson3_Slide83_Arithmatic_Using_Union.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+enum NUMOption_Type
+{
+	int_Option,
+	float_Option,
+	Double_Option
+};
+
+union UNUValues_Type
+{
+	int int_Value;
+	float float_Value;
+	double double_Value;
+
+};
+
+
+
+union UNUValues_Type add_Function(union UNUValues_Type a, union UNUValues_Type b, enum NUMOption_Type option )
+{
+	union UNUValues_Type r;
+	switch(option)
+	{
+	case int_Option:
+		break;
+	case float_Option:
+		break;
+	case Double_Option:
+		break;
+	}
+	return r;
+
+}
+
+
+int main(void)
+{
+	union UNUValues_Type v1, v2, v3;
+	enum NUMOption_Type;
+	printf("the sizeof union is: %d\n", sizeof(union UNUValues_Type));
+	v1.int_Value = 5;
+	v2.int_Value = 6;
+	add(v1, v2, e_Int);
+
+	return EXIT_SUCCESS;
+}

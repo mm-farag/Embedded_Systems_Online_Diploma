@@ -1,0 +1,53 @@
+/*
+ * unit2_Lesson3_Slide3_c_Example_With_Structure.c
+ *
+ *  Created on: Jan 31, 2021
+ *      Author: Muhammad Mustafa
+ */
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<conio.h>
+
+
+
+#define EMPLOYEE_NUMBER 2
+
+
+
+
+struct SEmployee
+{
+	char name[100];
+	unsigned int salary;
+	unsigned int day;
+	unsigned int month;
+	unsigned int year;
+}emp[EMPLOYEE_NUMBER];
+
+
+
+void main() //main function
+{
+
+	int i = 0;
+
+
+	do
+	{
+		fflush(stdout); ffllush(stdout);
+		printf("Enter Employee name: ");
+		gets(emp->name[i]);
+
+
+
+
+
+
+		i++;
+	}while(getchar() == 'y');
+
+
+	printf("%s%50s%50s", "Emplyee name", "Employee Birthday", "Employee Salary");
+}

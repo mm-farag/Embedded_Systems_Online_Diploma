@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;unit2_Lesson6_Slide3_c_Example_With_Structure.c/unit2_Lesson3_Slide3_c_Example_With_Structure.c&apos; to &apos;unit2_Lesson6_Slide3_c_Example_With_Structure.c&apos;" description="Rename resource &apos;unit2_Lesson3_Slide3_c_Example_With_Structure.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="unit2_Lesson3_Slide3_c_Example_With_Structure.c" name="unit2_Lesson6_Slide3_c_Example_With_Structure.c" stamp="1612270006355" updateReferences="true"/>
+</session>

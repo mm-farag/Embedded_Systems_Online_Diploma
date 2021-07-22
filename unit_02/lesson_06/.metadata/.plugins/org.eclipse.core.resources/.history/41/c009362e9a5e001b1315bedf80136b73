@@ -1,0 +1,32 @@
+/*
+ * test.c
+ *
+ *  Created on: Jan 24, 2021
+ *      Author: Muhammad Mustafa
+ */
+
+
+#include<stdio.h>
+
+struct Sdata
+{
+	char data1;
+	int data2;
+	char data3;
+	short data4;
+};
+
+
+
+
+void main()
+{
+	struct Sdata gx = {1};
+//	gx.data3 = 0;
+
+	printf("%d\n", gx.data1);
+	printf("%d\n", gx.data2);
+	printf("%d\n", gx.data3);
+	printf("%d\n", gx.data4);
+
+}

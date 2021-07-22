@@ -1,0 +1,38 @@
+/*
+ * unit2_Lesson3_Slide22_Complex_Number.c
+ *
+ *  Created on: Feb 1, 2021
+ *      Author: Muhammad Mustafa
+ */
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+#include<stdlib.h>
+
+
+typedef struct SComplex
+{
+	double m_Real_Part;
+	double m_Imaginary_Part;
+}complex;
+
+
+
+void main()
+{
+	complex x, y, z;
+
+
+
+}
+
+
+complex read_Imaginary_Number()
+{
+	complex;
+
+}
+

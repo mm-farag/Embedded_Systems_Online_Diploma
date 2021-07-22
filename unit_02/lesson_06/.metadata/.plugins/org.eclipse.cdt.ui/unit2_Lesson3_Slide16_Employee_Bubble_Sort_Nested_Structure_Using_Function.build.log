@@ -1,0 +1,10 @@
+11:13:48 **** Incremental Build of configuration Debug for project unit2_Lesson3_Slide16_Employee_Bubble_Sort_Nested_Structure_Using_Function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o unit2_Lesson3_Slide16_Employee_Bubble_Sort_Nested_Structure_Using_Function.o "..\\unit2_Lesson3_Slide16_Employee_Bubble_Sort_Nested_Structure_Using_Function.c" 
+..\unit2_Lesson3_Slide16_Employee_Bubble_Sort_Nested_Structure_Using_Function.c:140:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(void) //main function
+      ^~~~
+gcc -o unit2_Lesson3_Slide16_Employee_Bubble_Sort_Nested_Structure_Using_Function.exe unit2_Lesson3_Slide16_Employee_Bubble_Sort_Nested_Structure_Using_Function.o 
+
+11:13:50 Build Finished. 0 errors, 1 warnings. (took 1s.299ms)
+

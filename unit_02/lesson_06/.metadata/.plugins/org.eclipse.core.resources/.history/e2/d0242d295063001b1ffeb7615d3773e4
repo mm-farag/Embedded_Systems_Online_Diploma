@@ -1,0 +1,82 @@
+/*
+ * unit2_Lesson3_Slide3_c_Example_With_Structure.c
+ *
+ *  Created on: Jan 31, 2021
+ *      Author: Muhammad Mustafa
+ */
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<conio.h>
+
+
+
+#define EMPLOYEE_NUMBER 2
+
+
+
+
+struct SEmployee
+{
+	char name[100];
+	unsigned int salary;
+	unsigned int day;
+	unsigned int month;
+	unsigned int year;
+}emp[EMPLOYEE_NUMBER];
+
+
+
+void main() //main function
+{
+
+	char first_Name[50], second_Name[50];
+	char names[EMPLOYEE_NUMBER][100];
+	unsigned char count = 0, i = 0, j = 0;
+	unsigned int birth_Date_Day[EMPLOYEE_NUMBER] = {0};
+	unsigned int birth_Date_Month[EMPLOYEE_NUMBER] = {0};
+	unsigned int birth_Date_Year[EMPLOYEE_NUMBER] = {0};
+	int salary[EMPLOYEE_NUMBER];
+
+
+	char temp_Name[100];
+	unsigned int temp_Birth_Date_Day;
+	unsigned int temp_Birth_Date_Month;
+	unsigned int temp_Birth_Date_Year;
+
+
+
+
+
+	do
+	{
+
+		printf("Enter employee first name: ");
+		fflush(stdin); fflush(stdout);
+		scanf("%s", first_Name);
+
+		printf("Enter employee second name: ");
+		fflush(stdin); fflush(stdout);
+		scanf("%s", second_Name);
+		strcpy(names[count], first_Name);
+		strcat(names[count], " ");
+		strcat(names[count], second_Name);
+
+		printf("Enter employee birthdate (day/month/year) example: \"23/3/1997\": ");
+		fflush(stdin); fflush(stdout);
+		scanf("%u\%u\%u", &birth_Date_Day[count], &birth_Date_Month[count], &birth_Date_Year[count]);
+		printf("Enter employee salary: ");
+		fflush(stdin); fflush(stdout);
+		scanf("%d", &salary[count]);
+		count++;
+		fflush(stdin); fflush(stdout);
+		//		FLUSH;
+		printf("Press 'y' if you want to add more: ");
+		fflush(stdin); fflush(stdout);
+
+
+
+
+	}while(getchar() == 'y');
+}
