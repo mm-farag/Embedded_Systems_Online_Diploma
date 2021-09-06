@@ -1,9 +1,8 @@
 /**
 *Eng. Mohamed Mustafa Farag
-*Tiva C TM4C123GH6PM
-*toggling an LED.
+*Tiva C TM4C123
+*
 */
-
 
 #define  SYSCTL_RCGC2_R     *((volatile unsigned long *)0x400FE108)
 #define  GPIO_PORTF_DIR_R   *((volatile unsigned long *)0x40025400)
@@ -19,13 +18,13 @@ int main(void)
   for(delay_Count = 0; delay_Count < 200; delay_Count++); // just delay after the GPIO enable
   GPIO_PORTF_DIR_R |= 1<<3;
   GPIO_PORTF_DEN_R |= 1<<3;
-
+GPIO_PORTF_DATA_R = 0;
   while (1)
   {
     GPIO_PORTF_DATA_R |= 1<<3;
-    for(i = 0; i < (1500000/2); i++ );
+    for(i = 0; i < (500000); i++ );
     GPIO_PORTF_DATA_R &= ~(1<<3);
-    for(i = 0; i < (1500000/2); i++ );
+    for(i = 0; i < (500000); i++ );
   }
   return 0;
 }

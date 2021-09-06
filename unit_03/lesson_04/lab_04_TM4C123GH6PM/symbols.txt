@@ -1,0 +1,40 @@
+==> symbols for main.o
+--------------------------
+$ arm-none-eabi-nm main.o
+00000000 T main
+
+
+==> symbols for the elf img
+--------------------------
+$ arm-none-eabi-nm unit3_Lab4_Cortex_M4.elf
+000000a8 T default_Handler
+20000000 b g_Arr
+00000000 T g_p_func_Vectors
+000000a8 W hard_Fault_Handler
+00000014 T main
+000000a8 W MM_Fault_Handler
+000000a8 W NMI_Handler
+000000b4 T reset_Handler
+20000400 B SYMBOL_E_BSS
+20000000 D SYMBOL_E_DATA
+00000138 T SYMBOL_E_TEXT
+20000000 B SYMBOL_S_BSS
+20000000 D SYMBOL_S_DATA
+
+
+==> symbols for startup.o
+--------------------------
+$ arm-none-eabi-nm startup.o
+00000000 T default_Handler
+00000000 b g_Arr
+00000000 R g_p_func_Vectors
+00000000 W hard_Fault_Handler
+         U main
+00000000 W MM_Fault_Handler
+00000000 W NMI_Handler
+0000000c T reset_Handler
+         U SYMBOL_E_BSS
+         U SYMBOL_E_DATA
+         U SYMBOL_E_TEXT
+         U SYMBOL_S_BSS
+         U SYMBOL_S_DATA
